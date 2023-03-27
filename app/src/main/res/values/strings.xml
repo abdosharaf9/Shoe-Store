@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Shoe Store</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="enter_mail">Enter your e-mail</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="plz_fill_fields">Please fill all the fields first!</string>
+    <string name="welcome">Welcome</string>
+    <string name="to_our_store">to our shoe store</string>
+    <string name="next">Next</string>
+    <string name="store_image">Store image</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_to_follow">- To add a new shoe into your list press the \+ button in the shoe list screen, add its information, and then save the item to add it. \n\n- If you want to cancel this item press the cancel button instead of save button.</string>
+</resources>

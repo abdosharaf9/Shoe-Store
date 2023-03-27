@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  If the input is not focused  -->
+    <item android:state_focused="false">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/_2dp" android:color="@color/dark_gray"/>
+            <corners android:radius="@dimen/_16dp"/>
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+
+    <!--  If the input is in focus  -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/_2dp" android:color="@color/main_color"/>
+            <corners android:radius="@dimen/_16dp"/>
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+</selector>
