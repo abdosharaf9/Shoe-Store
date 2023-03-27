@@ -17,6 +17,13 @@
         <item name="android:textSize">@dimen/label2_size</item>
     </style>
 
+    <style name="label3">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/label3_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="input">
         <item name="android:padding">@dimen/_16dp</item>
         <item name="android:drawablePadding">@dimen/input_padding</item>
@@ -44,5 +51,12 @@
         <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="shoe_data">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/shoe_text</item>
+        <item name="android:textAlignment">viewEnd</item>
     </style>
 </resources>

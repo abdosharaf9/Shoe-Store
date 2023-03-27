@@ -30,11 +30,12 @@
         tools:layout="@layout/fragment_instructions" >
         <action
             android:id="@+id/action_instructionsFragment_to_shoeListFragment"
-            app:destination="@id/shoeListFragment" />
+            app:destination="@id/shoeListFragment"
+            app:popUpTo="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/shoeListFragment"
-        android:name="com.abdosharaf.shoestore.fragments.shoelist.ShoeListFragment"
+        android:name="com.abdosharaf.shoestore.fragments.shoeList.ShoeListFragment"
         android:label="fragment_shoe_list"
         tools:layout="@layout/fragment_shoe_list" >
         <action
@@ -43,7 +44,7 @@
     </fragment>
     <fragment
         android:id="@+id/addNewShowFragment"
-        android:name="com.abdosharaf.shoestore.fragments.addnewshoe.AddNewShowFragment"
+        android:name="com.abdosharaf.shoestore.fragments.addNewShoe.AddNewShowFragment"
         android:label="fragment_add_new_show"
         tools:layout="@layout/fragment_add_new_show" >
         <action

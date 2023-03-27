@@ -7,6 +7,7 @@
     <dimen name="_24dp">24dp</dimen>
     <dimen name="label_size">20sp</dimen>
     <dimen name="label2_size">16sp</dimen>
+    <dimen name="label3_size">16sp</dimen>
     <dimen name="input_text_size">16sp</dimen>
     <dimen name="button_text_size">16sp</dimen>
     <dimen name="input_padding">10dp</dimen>
@@ -14,4 +15,5 @@
     <dimen name="title_size">32sp</dimen>
     <dimen name="_48dp">48dp</dimen>
     <dimen name="text_size">16sp</dimen>
+    <dimen name="shoe_text">14sp</dimen>
 </resources>

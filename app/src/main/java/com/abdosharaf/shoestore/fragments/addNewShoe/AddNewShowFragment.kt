@@ -1,4 +1,4 @@
-package com.abdosharaf.shoestore.fragments.addnewshoe
+package com.abdosharaf.shoestore.fragments.addNewShoe
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -1,6 +1,7 @@
 package com.abdosharaf.shoestore.fragments.login
 
 import android.os.Bundle
+import android.text.Editable
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -16,6 +17,8 @@ class LoginFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = FragmentLoginBinding.inflate(inflater, container, false)
+
+        setDummyData()
 
         binding.btnLogin.setOnClickListener {
             val email = binding.etEmail.text.toString()
@@ -50,5 +53,11 @@ class LoginFragment : Fragment() {
 
     private fun checkForm(email: String?, password: String?): Boolean {
         return !(email.isNullOrEmpty() || password.isNullOrEmpty())
+    }
+
+    private fun setDummyData(){
+        binding.etEmail.setText("abc")
+        binding.etPassword.setText("123")
+
     }
 }

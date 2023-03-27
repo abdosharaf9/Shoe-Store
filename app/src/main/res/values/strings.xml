@@ -13,4 +13,10 @@
     <string name="store_image">Store image</string>
     <string name="instructions">Instructions</string>
     <string name="instructions_to_follow">- To add a new shoe into your list press the \+ button in the shoe list screen, add its information, and then save the item to add it. \n\n- If you want to cancel this item press the cancel button instead of save button.</string>
+    <string name="add_shoe">Add shoe</string>
+    <string name="shoe_list">Shoe list</string>
+    <string name="shoe_name">Shoe name:</string>
+    <string name="company">Company:</string>
+    <string name="size">Size:</string>
+    <string name="description">Description:</string>
 </resources>
