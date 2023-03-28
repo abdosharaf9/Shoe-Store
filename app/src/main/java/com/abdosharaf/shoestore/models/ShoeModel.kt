@@ -1,8 +1,8 @@
-package com.abdosharaf.shoestore
+package com.abdosharaf.shoestore.models
 
 data class ShoeModel(
     val name: String,
-    val size: String,
     val company: String,
+    val size: String,
     val description: String
 )

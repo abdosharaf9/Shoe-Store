@@ -1,7 +1,6 @@
 package com.abdosharaf.shoestore.fragments.login
 
 import android.os.Bundle
-import android.text.Editable
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -18,11 +17,11 @@ class LoginFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = FragmentLoginBinding.inflate(inflater, container, false)
 
-        setDummyData()
-
+        // Check the user data before go the welcome screen
         binding.btnLogin.setOnClickListener {
             val email = binding.etEmail.text.toString()
             val password = binding.etPassword.text.toString()
+
             if(checkForm(email, password)) {
                 findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToWelcomeFragment())
             } else{
@@ -34,9 +33,11 @@ class LoginFragment : Fragment() {
             }
         }
 
+        // Check the user data before go the welcome screen
         binding.tvSignup.setOnClickListener {
             val email = binding.etEmail.text.toString()
             val password = binding.etPassword.text.toString()
+
             if(checkForm(email, password)) {
                 findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToWelcomeFragment())
             } else{
@@ -55,9 +56,10 @@ class LoginFragment : Fragment() {
         return !(email.isNullOrEmpty() || password.isNullOrEmpty())
     }
 
-    private fun setDummyData(){
-        binding.etEmail.setText("abc")
-        binding.etPassword.setText("123")
-
+    // Clear the inputs after close the screen
+    override fun onStop() {
+        super.onStop()
+        binding.etEmail.setText("")
+        binding.etPassword.setText("")
     }
 }

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email">البريد الالكترونى</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup">تسجيل حساب جديد</string>
+    <string name="enter_mail">أدخل بريدك الالكترونى</string>
+    <string name="enter_password">أدخل كلمة مرورك</string>
+    <string name="plz_fill_fields">من فضلك قم بملئ جميع المدخلات!</string>
+    <string name="welcome">مرحباً</string>
+    <string name="to_our_store">فى متجرنا للأحذية</string>
+    <string name="next">التالى</string>
+    <string name="store_image">صورة المتجر</string>
+    <string name="instructions">التعليمات</string>
+    <string name="instructions_to_follow">- لإضافة حذاء جديد الى القائمة اضغط على زر \"\+\" فى شاشة قائمة الأحذية.\n\n- فى شاشة تفاصيل الحذاء قم بإضافة معلومات حذائك، بعدها قم بالحفظ.\n\n- اذا كنت تريد إلغاء إضافة هذا العنصر إضغط زر الإلغاء بدلاً من زر الحفظ.</string>
+    <string name="add_shoe">إضافة حذاء</string>
+    <string name="shoe_list">قائمة الأحذية</string>
+    <string name="shoe_name">اسم الحذاء:</string>
+    <string name="company">الشركة:</string>
+    <string name="size">الحجم:</string>
+    <string name="description">الوصف:</string>
+    <string name="shoe_name_">اسم الحذاء</string>
+    <string name="company_">الشركة</string>
+    <string name="size_">الحجم</string>
+    <string name="description_">الوصف</string>
+    <string name="Enter_shoe_data">أدخل بيانات الحذاء</string>
+    <string name="enter_shoe_name">أدخل اسم الحذاء</string>
+    <string name="enter_company">أدخل الشركة</string>
+    <string name="enter_size">أدخل حجم الحذاء</string>
+    <string name="enter_description">أدخل وصف الحذاء</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="no_items">لا يوجد أى منتجات</string>
+    <string name="added_to_list">تمت الإضافة للقائمة</string>
+    <string name="shoe_details">تفاصيل الحذاء</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="change_language">تغيير اللغة</string>
+</resources>

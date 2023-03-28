@@ -16,6 +16,7 @@ class WelcomeFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = FragmentWelcomeBinding.inflate(inflater, container, false)
 
+        // Go to instructions fragment
         binding.btnNext.setOnClickListener {
             findNavController().navigate(R.id.action_welcomeFragment_to_instructionsFragment)
         }
