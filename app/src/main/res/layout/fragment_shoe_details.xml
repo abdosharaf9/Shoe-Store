@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!--  Used Constraint layout because I can freely put the views in the place that I want, and can be
+    used in the complex UI designs  -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,6 +22,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <!--  Scroll view is used because the views can be bigger than screen height -->
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -32,6 +35,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvEnterShoeData">
 
+            <!--  Used Linear Layout because it arranges the views as a single row horizontally / stack
+            them vertically -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
